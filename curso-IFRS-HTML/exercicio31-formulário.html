@@ -7,10 +7,35 @@
     <title>Formulário</title>
 </head>
 <body>
-    <header>CURSO HTML - FORMULÁRIO</header>
+    <header>CURSO HTML - FORMULÁRIO</header><br>
     <nav></nav>
     <section>
+        <form method="post" action="#">
+           <b> Nome: </b><input type="text" name="nome" placeholder="Informe o seu nome"> <br><br> <!--placeholder ajuda o usuário no preenchimento-->
+
+           <b> Idade: </b><input type="text" name="nome" placeholder="Dados seguros" disabled> <br><br>
+           <!--disable- utilize para não dar acesso a determinado parâmetro--> 
+
+           <b> Nome: </b><input type="text" name="nome" value="Picuto"><br><br> <!--Value - podemos colocar um valor que pode ser mudado-->
+
+           Nome: </b><input type="text" name="nome" value=" Marcos Antonio Silva de Souza" readonly><br><br> <!--Readonly - deixa Bloqueada com o valor para somente leitura-->
+
+           CPF: </b><input type="text" name="cpf" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}\-[0-9]{2}"><br><br>
+           <!--maxlenght usa-se para definir o max de comprimento, o maximo de caracter. No caso do CPF são 14 contando com pontos e traço. Usa-se pattern para definir o padrão que quero que escreva. ex: 000.000.000-00. Posso conseguir esse padrão no site: www.regexpal.com-->
+
+           Nome: </b><input type="text" name="nome" placeholder="Informe seu nome"required><br><br> <!--required - é obrigatório o preenchimento-->
         
+           <form method="post" action="recebe.php"> <!-- usar method= "post" para senha-->
+               Email: <input type="text" name="email"> <br>
+               Senha: <input type="password" name="senha" >
+           </form>
+
+           
+
+
+
+
+        </form>
 
     </section>
     <footer></footer>
