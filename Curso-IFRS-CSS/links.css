@@ -1,0 +1,18 @@
+/** Referenciando a tag <a> no CSS**/
+
+a:link {
+    background-color: #b2ff99;
+    color: blue;
+}   
+a:visited {
+    background-color: #ffff85;
+    color: red;
+}
+a:hover {
+background-color: #77704d;
+color: green;
+}
+a:active {
+    background-color: #ff704d;
+    color: gray;
+}
