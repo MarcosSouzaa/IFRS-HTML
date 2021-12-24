@@ -1,0 +1,13 @@
+/*RECUO DO PARAGRÁFO*/
+
+h1 {
+    font-family: sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+    text-indent: 30pt;
+}
