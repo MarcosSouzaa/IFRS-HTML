@@ -1,3 +1,6 @@
+
+/** Formatando h1, h3 e p do html**/
+
 h1 {
     font-family: Verdana;
     text-decoration: underline;
@@ -6,6 +9,8 @@ h1 {
 
 h3 {
      font-style:italic;
+     font-family: comic sans-serif;
+     color: mediumslateblue;
 }
 
 p {
