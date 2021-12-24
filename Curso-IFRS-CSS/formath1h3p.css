@@ -1,0 +1,14 @@
+h1 {
+    font-family: Verdana;
+    text-decoration: underline;
+    color: green;
+}
+
+h3 {
+     font-style:italic;
+}
+
+p {
+    font-family: Arial;
+    color: black;
+}
