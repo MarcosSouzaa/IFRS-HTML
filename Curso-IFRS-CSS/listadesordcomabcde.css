@@ -1,0 +1,14 @@
+/*Lista desordenada utilizando marcadores como alfabeto*/
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: blue;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    list-style-type: lower-alpha;
+}
