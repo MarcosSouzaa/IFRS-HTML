@@ -1,11 +1,12 @@
 //Cálculo de média usando if e else
 
-var nota1 = 4;
+var nota1 = 7;
 var nota2 = 7;
-var media = (nota1+nota2)/2;
+var nota3 = 8;
+var media = (nota1+nota2+nota3)/3;
 if(media>=7) {
-    alert("Aprovado")
+    alert("A média do aluno foi: "+ media + ","+" Aprovado")
 }
 else{
-    alert("Reprovado")
+    alert("A média do aluno foi: "+ media+ ","+" Reprovado")
 }
